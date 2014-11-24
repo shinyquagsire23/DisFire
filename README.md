@@ -1,6 +1,6 @@
 ## DisFire
 
-To compile, first create a single binary blob named 231C85toend.bin consisting of all data from 0x231C85 to the end of the Fire Red ROM. Then run compile.sh and the resulting ROM should be 
+To compile, first create a single binary blob named 231CE4toend.bin consisting of all data from 0x231CE4 to the end of the Fire Red ROM. Then run compile.sh and the resulting ROM should be 
 named firered.new.gba. If it is not generated, check error.txt and cerror.txt for any errors which may have occured during the compile process. Windows users, feel free to create a batch script to compile this until a proper Makefile has been made.
 
 **Changelog:**
