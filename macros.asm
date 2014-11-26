@@ -1,3 +1,12 @@
+.macro oam y, flags1, x, flags2, attr2, rotscale
+.byte \y
+.byte \flags1
+.byte \x
+.byte \flags2
+.short \attr2
+.short \rotscale
+.endm
+
 .macro obj y, flags1, x, flags2, attr2, rotscale, animtable, gfx_table, rotscale_table, template, field_18, callback, pos1_x, pos1_y, pos2_x, pos2_y, pos_neg_center_x, pos_neg_center_y, anim_number, anim_frame, anim_delay_countdown, anim_unknown_counter, private0, private1, private2, private3, private4, private5, private6, private7, bitfield2, bitfield, anim_data_offset, field_42, y_height_related
 
 .byte \y
