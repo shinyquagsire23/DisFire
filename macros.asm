@@ -36,3 +36,37 @@
 .byte \field_42
 .byte \y_height_related
 .endm
+
+.macro image_frame data, duration
+.short \data
+.short \duration
+.endm
+
+.macro rotscale_frame scale_x_delta, scale_y_delta, rotation_delta, duration, field_6
+.short \scale_x_delta
+.short \scale_y_delta
+.byte \rotation_delta
+.byte \duration
+.short \field_6
+.endm
+
+.macro objtemplate tiles_tag, pal_tag, oam, image_anims, gfx_table, rotscale_anims, callback
+.short \tiles_tag
+.short \pal_tag
+.long \oam
+.long \image_anims
+.long \gfx_table
+.long \rotscale_anims
+.long \callback
+.endm
+
+.macro borg derp1, derp2
+.long \derp1
+.long \derp2
+.endm
+
+.macro bogo derp1, derp2, derp3
+.long \derp1
+.short \derp2
+.short \derp3
+.endm
