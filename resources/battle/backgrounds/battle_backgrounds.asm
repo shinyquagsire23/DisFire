@@ -58,3 +58,25 @@ indoor2_tiles:				.incbin"resources/battle/backgrounds/indoor2/indoor2_tiles.bin
 indoor2_tilemap:			.incbin"resources/battle/backgrounds/indoor2/indoor2_tilemap.bin"
 
 
+battle_screen_elements_by_env:
+	battle_screen_elements grass_tiles, grass_tilemap,  grass_sliding_tiles, grass_sliding_tilemap,  grass_palette
+	battle_screen_elements tall_grass_tiles, tall_grass_tilemap,  tall_grass_sliding_tiles,  tall_grass_sliding_tilemap,  tall_grass_palette
+	battle_screen_elements sand_tiles, sand_tilemap, sand_sliding_tiles,  sand_sliding_tilemap, sand_palette
+	battle_screen_elements field_tiles, field_tilemap,  field_sliding_tiles, field_sliding_tilemap,  field_palette
+	battle_screen_elements sea_tiles, sea_tilemap,	sea_sliding_tiles,  sea_sliding_tilemap, sea_palette
+	battle_screen_elements pond_tiles, pond_tilemap, pond_sliding_tiles,  pond_sliding_tilemap, pond_palette
+	battle_screen_elements craggy_tiles, craggy_tilemap,  craggy_sliding_tiles, craggy_sliding_tilemap,  craggy_palette
+	battle_screen_elements cave_tiles, cave_tilemap, cave_sliding_tiles,  cave_sliding_tilemap, cave_palette
+	battle_screen_elements indoor_tiles, indoor_tilemap,  indoor_sliding_tiles, indoor_sliding_tilemap,  indoor_palette
+	battle_screen_elements indoor_tiles, indoor_tilemap,  indoor_sliding_tiles, indoor_sliding_tilemap,  indoor_rival_palette
+	battle_screen_elements indoor_tiles, indoor_tilemap,  indoor_sliding_tiles, indoor_sliding_tilemap,  indoor_2_palette
+	battle_screen_elements indoor_tiles, indoor_tilemap,  indoor_sliding_tiles, indoor_sliding_tilemap,  indoor_gym_palette
+	battle_screen_elements indoor_tiles, indoor_tilemap,  indoor_sliding_tiles, indoor_sliding_tilemap,  indoor_gym_leader_palette
+	battle_screen_elements indoor2_tiles, indoor2_tilemap indoor_sliding_tiles, indoor_sliding_tilemap,  indoor2_palette
+	battle_screen_elements indoor2_tiles, indoor2_tilemap, indoor_sliding_tiles, indoor_sliding_tilemap,  indoor2_2_palette
+	battle_screen_elements indoor2_tiles, indoor2_tilemap, indoor_sliding_tiles, indoor_sliding_tilemap,  indoor2_3_palette
+	battle_screen_elements indoor2_tiles, indoor2_tilemap, indoor_sliding_tiles, indoor_sliding_tilemap,  indoor2_4_palette
+	battle_screen_elements indoor2_tiles, indoor2_tilemap, indoor_sliding_tiles, indoor_sliding_tilemap,  indoor2_5_palette
+	battle_screen_elements indoor2_tiles, indoor2_tilemap, indoor_sliding_tiles, indoor_sliding_tilemap,  indoor2_6_palette
+	battle_screen_elements indoor2_tiles, indoor2_tilemap, indoor_sliding_tiles, indoor_sliding_tilemap,  indoor2_7_palette
+

@@ -79,3 +79,17 @@
 .short \derp2
 .short \derp3
 .endm
+
+.macro fob derp1, derp2, derp3
+.byte \derp1
+.byte \derp2
+.byte \derp3
+.endm
+
+.macro battle_screen_elements tiles, tilemap, sliding_tiles, sliding_tilemap, palette
+.long \tiles
+.long \tilemap
+.long \sliding_tiles
+.long \sliding_tilemap
+.long \palette
+.endm
